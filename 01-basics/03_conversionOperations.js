@@ -25,5 +25,9 @@ let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
 
+//************************* Operations************************************
 
+let value = 3 
+let negvalue= -value
+console.log(negvalue)
 
