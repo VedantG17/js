@@ -48,3 +48,15 @@ console.log(typeof myFunction)
 //        Function  =>  function
 //        Object  =>  object
 
+// ++++++++++++++++++++++++++++++++++++++++++++++
+//Stack (Primitive) and Heap(Non Primitive)
+let myYoutubename="vedantu"
+let anotherName = myYoutubename
+anotherName = "newname"
+console.log(myYoutubename);
+console.log(anotherName);
+
+let user ={
+    email:"useremail.c0om"
+}
+
