@@ -1,2 +1,2 @@
 # JavaScipt
-Code repo that documents some learnings form js
+Code repo that documents some learnings about javascript
