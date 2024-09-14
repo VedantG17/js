@@ -49,14 +49,23 @@ console.log(typeof myFunction)
 //        Object  =>  object
 
 // ++++++++++++++++++++++++++++++++++++++++++++++
-//Stack (Primitive) and Heap(Non Primitive)
-let myYoutubename="vedantu"
-let anotherName = myYoutubename
-anotherName = "newname"
-console.log(myYoutubename);
-console.log(anotherName);
 
-let user ={
-    email:"useremail.c0om"
+//2 Type of Memories => Stack (Primitive) and Heap(Non Primitive)
+//STACK -> COPY , heap ->reference 
+
+let myYoutubename="vedantu" //goes in stack
+let anotherName = myYoutubename //goes in stack
+anotherName = "newname" //copy made and changed
+console.log(myYoutubename); //vedantu
+console.log(anotherName); //newname
+
+//goes in heap 
+let userOne ={
+    email:"useremail.com",
+    upi:"user@ybl"
 }
+let userTwo = userOne //same refernce in userOne so anychange in userOne reflected here
 
+userTwo.email ="xyz@gmail.com"
+console.log(userOne.email) //xyz@gmail.com
+console.log(userTwo.email) //xyz@gmail.com
