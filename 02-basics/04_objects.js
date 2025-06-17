@@ -49,3 +49,23 @@ console.log(Object.values(tinderUser))
 console.log(Object.entries(tinderUser))
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
 console.log(tinderUser.hasOwnProperty('gender'))
+
+//destructuring
+const course = {
+    coursename:"js in english",
+    price:"1000",
+    courseInstructor:"Hitesh"
+}
+
+// course.coursename
+
+console.log(course.courseInstructor)
+//syntactical sugar extract courseInstructor and rename it in short frm the object course
+const {courseInstructor:instructor} = course
+console.log(instructor)
+
+{
+    "name":"Vedant",
+    "gender":"Male"
+}
+//use json formatter to understand complex api response
