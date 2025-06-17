@@ -2,6 +2,8 @@
 //object literal -> non singleton -> multiple instances
 //constructor ->singleton
 
+
+//object literal (non singleton)
 const mySym = Symbol("key1");
 const JsUser = {
     name:"vedant",
