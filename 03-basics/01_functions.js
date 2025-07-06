@@ -69,3 +69,4 @@ function returnSecondValue(getArray){
 
 console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200,600,943,93]));
+
